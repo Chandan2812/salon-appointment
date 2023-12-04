@@ -7,7 +7,7 @@ const totalCout_appointments = document.getElementById('totalCout_appointments')
 const totalCout_revenue = document.getElementById('totalCout_revenue');
 
 
-const baseUrl_dashboard= `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_dashboard= `http://localhost:7500`
 
 setInterval(()=>{
 

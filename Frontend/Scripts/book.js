@@ -1,5 +1,5 @@
 
-const baseUrl_book = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_book = `http://localhost:7500`
 
 let stylistData = JSON.parse(localStorage.getItem("stylist")) || null;
 

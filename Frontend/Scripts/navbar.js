@@ -1,7 +1,7 @@
 
 fetchAndSoUserName()
 
-const baseUrl_navbar = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_navbar = `http://localhost:7500`
 
 function fetchAndSoUserName() {
     const userFirstName_StyleSync = localStorage.getItem('userFirstName_StyleSync') || null

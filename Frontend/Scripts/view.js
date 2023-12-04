@@ -1,5 +1,5 @@
 
-const baseUrl_view = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_view = `http://localhost:7500`
 
 const StyleSyncLogedInUserID_view = localStorage.getItem('StyleSyncLogedInUserID') || null
 if (!StyleSyncLogedInUserID_view) {

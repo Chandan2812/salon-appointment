@@ -1,6 +1,6 @@
 let userInfoObj = {}
 
-const baseUrl_appointment = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_appointment = `http://localhost:7500`
 
 
 fetchAllUsers()

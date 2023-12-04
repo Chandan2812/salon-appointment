@@ -1,5 +1,5 @@
 
-const baseUrl_details = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_details = `http://localhost:7500`
 
 let container = document.getElementById("container")
 let stylistData = JSON.parse(localStorage.getItem("stylist")) || {}

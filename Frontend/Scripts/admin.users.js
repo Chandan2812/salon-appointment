@@ -1,7 +1,7 @@
 
 let usersInfoData = []
 
-const baseUrl_users = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_users = `http://localhost:7500`
 
 
 fetchAllUsers()

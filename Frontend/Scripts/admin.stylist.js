@@ -1,5 +1,5 @@
 
-const baseUrl_stylist = `https://frightened-tuna-cummerbund.cyclic.app`
+const baseUrl_stylist = `http://localhost:7500`
 
 const adminGetStylist=()=>{
     fetch(`${baseUrl_stylist}/stylist/getstylist`,{
