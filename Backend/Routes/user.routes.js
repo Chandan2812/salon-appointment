@@ -9,8 +9,8 @@ userrouter.use(cors());
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
-const { passport } = require("../Configs/google.auth");
-const { googleAuthentication } = require("../Controllers/user.controller");
+// const { passport } = require("../Configs/google.auth");
+// const { googleAuthentication } = require("../Controllers/user.controller");
 
 
 
@@ -118,10 +118,10 @@ userrouter.post("/reset-password/:id/:token", async (req, res) => {
 // google auth
 
 
-userrouter.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
+// userrouter.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
 
 
-userrouter.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/login', session:false }), googleAuthentication )
+// userrouter.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/login', session:false }), googleAuthentication )
 
 
 
